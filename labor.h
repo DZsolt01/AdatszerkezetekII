@@ -25,5 +25,6 @@ void printVectorInt(const vector<int> &mPoints);
 vector<int> DFS(vector<POINT> mPoints);
 void dfsRun(vector<POINT> &mPoints, int current, vector<int> &dfs);
 vector<int> BFS(vector<POINT> &mPoints, int startingPoint);
+void printFatherAndDistance(const vector<POINT> &mPoints);
 
 #endif //ADATSZERKEZETEKII_LABOR_H

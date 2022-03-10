@@ -80,3 +80,9 @@ vector<int> BFS(vector<POINT> &mPoints, int startingPoint){
     }
     return bfs;
 }
+void printFatherAndDistance(const vector<POINT> &mPoints){
+    for (const auto& point : mPoints) {
+        cout << "Father:" << point.father+1 << endl;
+        cout << "Distance:" << point.distance+1 << endl;
+    }
+}

@@ -11,4 +11,5 @@ int main(){
     printVectorInt(DFS(mPoints));
     cout << "Szelessegi bejaras:";
     printVectorInt(BFS(mPoints, 1));
+    printFatherAndDistance(mPoints);
 }
