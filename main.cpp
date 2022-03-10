@@ -101,7 +101,7 @@ int lnko(int a, int b){
     return a;
 }
 
-int main() {
+int mainA() {
     srand(time(nullptr));
     std::cout << szamjegyekosszege(11);
     std::cout << std::endl;
